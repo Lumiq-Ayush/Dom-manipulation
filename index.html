@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col md-3">
+                <label for="PlayerName">Enter Player Name</label>
+                <input type="text" class="form-control" id="PlayerName">
+            </div>
+            <div class="col md-3">
+                <label for="Team">Enter Team Name</label>
+                <input type="text" class="form-control" id="Team">
+            </div>
+            <div class="col md-3">
+                <label for="Role">Enter Role </label>
+                <input type="text" class="form-control" id="Role">
+            </div>
+            <div class="col md-3">
+                <label for="BattingStyle">Enter Batting Style</label>
+                <input type="text" class="form-control" id="BattingStyle">
+            </div>
+            
+        </div>
+
+        <div class="row-mt-5">
+            <div class="col-md-12 text-center">
+                <button type="button" id="btn-lappy" class="btn btn-success" onclick="addOnClick()"> Add</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="table"></div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
