@@ -13,7 +13,7 @@ var PlayerData = [
         battingStyle: "Right-handed bat",id: 2
     },
 ];
-
+//this is for pull purpose
 function displayTableData() {
     var html = "<table border ='1|1' class='table'>";
 
